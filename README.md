@@ -1,16 +1,16 @@
-This is a graph script.
-Add connection to the graph --> instance.add_connection(item1,item2)
-traverse the graph -- > instance.BreadthFirstSearch(any item)
+This is a graph script. <br>
+Add connection to the graph --> instance.add_connection(item1,item2) <br>
+traverse the graph -- > instance.BreadthFirstSearch(any item) <br>
 
-Example:
+Example:<br>
 
-g=graph()
+g=graph()<br>
 
-g.add_connection(1,2)
-g.add_connection(2,3)
-g.add_connection(3,1)
-g.add_connection(4,1)
-g.add_connection(5,3)
+g.add_connection(1,2)<br>
+g.add_connection(2,3)<br>
+g.add_connection(3,1)<br>
+g.add_connection(4,1)<br>
+g.add_connection(5,3)<br>
 
 
 print(g.graph_structure)
